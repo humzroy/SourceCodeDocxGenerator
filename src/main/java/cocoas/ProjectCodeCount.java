@@ -98,7 +98,7 @@ public class ProjectCodeCount {
     public static void main(String[] args) throws Exception {
         // 统计.java后缀的代码文件
         List<String> fileSuffixTypes = Arrays.asList(".java", ".xml", ".vue", ".js", ".ts");
-        String path = "D:\\workspace\\git\\helink-pro-backend\\helink-pro\\src";
+        String path = "D:\\workspace\\git\\xxx\\src";
         File f = new File(path);
         File[] files = f.listFiles();
         if (files == null || files.length < 1) {
